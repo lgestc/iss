@@ -4,6 +4,8 @@
 
 This utility parses current branch name to pull out the issue name from it. Once retrieved, it will be printed to the standard output.
 
+Probably will just work for me.
+
 ## How?
 
 It uses libgit2 under the hood and looks for JIRA-like issue codes in the branch names.
@@ -27,3 +29,5 @@ you can define those in `$HOME/.config/iss/suffixes` like this:
 proj [Some Suffix]
 proj2 AnotherSuffix
 ```
+
+Then you can have the suffix appended to your project if the first arg matches the prefix alias (first string in line).
