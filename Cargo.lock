@@ -50,7 +50,7 @@ dependencies = [
 
 [[package]]
 name = "git-issue"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "git2",
  "regex",

@@ -17,3 +17,13 @@ Clone the repository and run `cargo install` in the root directory.
 You can use it to add jira code to the commit message easily, for instance (in vim):
 
 `:r! iss`
+
+## Extras
+
+If your project uses some suffixes to task codes depending on the project (eg in a monorepo setup),
+you can define those in `$HOME/.config/iss/suffixes` like this:
+
+```
+proj [Some Suffix]
+proj2 AnotherSuffix
+```
