@@ -30,4 +30,6 @@ proj [Some Suffix]
 proj2 AnotherSuffix
 ```
 
-Then you can have the suffix appended to your project if the first arg matches the prefix alias (first string in line).
+Then you can have the suffix appended to your project if the first `arg` matches the prefix alias (first string in line).
+
+Eg. `iss proj2` would print `ISSUE_NUMBER-# AnotherSuffix` to the standard output.

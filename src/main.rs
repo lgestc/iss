@@ -10,7 +10,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let re = Regex::new(r"([A-Z]{2,}\-\d+)").unwrap();
 
-    let captures = re.captures(&branch_name).ok_or("code not found")?;
+  let captures = re.captures(&branch_name).ok_or("code not found")?;
 
     let code = captures
         .get(0)
